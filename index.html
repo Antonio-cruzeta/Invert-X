@@ -2,25 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Invert-X | Inversión Inteligente</title>
+  <title>Invert-X | Plataforma de Inversión</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- HEADER -->
 <header class="header">
   <div class="logo">Invert-X</div>
 
-  <div class="menu-toggle" id="menu-toggle">
-    ☰
-  </div>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
 
   <nav id="nav">
     <a href="#">Inicio</a>
-    <a href="#benefits">Beneficios</a>
+    <a href="#crypto">Mercado</a>
     <a href="#planes">Planes</a>
-    <a href="#seguridad">Seguridad</a>
     <a href="login.html">Login</a>
     <a href="register.html" class="btn">Registrarse</a>
   </nav>
@@ -28,140 +25,110 @@
 
 <!-- HERO -->
 <section class="hero">
-  <h1>Invierte como los profesionales</h1>
-  <p>Plataforma inteligente para hacer crecer tu capital con criptomonedas</p>
-  <a href="register.html" class="cta">Empezar ahora</a>
+  <h1>Haz crecer tu capital con criptomonedas</h1>
+  <p>Estrategias reales de holding y staking con activos digitales.</p>
+
+  <div class="badges">
+    <span>🔒 Seguro</span>
+    <span>⚡ Rápido</span>
+    <span>📊 Transparente</span>
+  </div>
+
+  <div class="hero-buttons">
+    <a href="register.html" class="btn">Empezar ahora</a>
+    <a href="#planes" class="btn-outline">Ver estrategias</a>
+  </div>
+
+  <div class="stats">
+    <div>
+      <h3 id="users">0</h3>
+      <p>Usuarios</p>
+    </div>
+    <div>
+      <h3 id="volume">$0</h3>
+      <p>Volumen</p>
+    </div>
+  </div>
 </section>
 
-<section class="crypto-section reveal">
+<!-- CRYPTO -->
+<section id="crypto" class="crypto-section reveal">
   <h2>Activos disponibles</h2>
-  <p>Opera con las principales criptomonedas del mercado</p>
-
-  <section class="crypto-section reveal">
-  <h2>Mercado en tiempo real</h2>
-  <p>Precios actualizados de criptomonedas</p>
 
   <div class="crypto-grid">
-
     <div class="crypto-card">
       <h3>USDT</h3>
-      <p id="usdt-price">Cargando...</p>
+      <p id="usdt-price">...</p>
     </div>
 
     <div class="crypto-card">
       <h3>USDC</h3>
-      <p id="usdc-price">Cargando...</p>
+      <p id="usdc-price">...</p>
     </div>
 
     <div class="crypto-card">
       <h3>TRX</h3>
-      <p id="trx-price">Cargando...</p>
+      <p id="trx-price">...</p>
     </div>
 
     <div class="crypto-card">
       <h3>LTC</h3>
-      <p id="ltc-price">Cargando...</p>
+      <p id="ltc-price">...</p>
     </div>
 
     <div class="crypto-card">
       <h3>AXS</h3>
-      <p id="axs-price">Cargando...</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- BENEFICIOS -->
-<section id="benefits" class="benefits reveal">
-  <h2>¿Por qué elegir Invert-X?</h2>
-
-  <div class="cards">
-    <div class="card">
-      <h3>⚡ Rápido</h3>
-      <p>Transacciones ágiles en segundos.</p>
-    </div>
-
-    <div class="card">
-      <h3>🔒 Seguro</h3>
-      <p>Cifrado y protección avanzada.</p>
-    </div>
-
-    <div class="card">
-      <h3>📈 Inteligente</h3>
-      <p>Estrategias automatizadas.</p>
+      <p id="axs-price">...</p>
     </div>
   </div>
 </section>
 
 <!-- PLANES -->
-<section id="planes" class="plans reveal">
+<section id="planes" class="reveal">
   <h2>Planes de inversión</h2>
-
-  <section id="planes" class="plans reveal">
-  <h2>Estrategias de inversión</h2>
 
   <div class="plan-grid">
 
-    <!-- HOLDING -->
     <div class="plan-card">
-      <h3>Holding</h3>
-      <p>Estrategia a largo plazo</p>
+      <h3>Básico</h3>
+      <p>$10 - $100</p>
       <ul>
-        <li>✔ Mantén tus activos</li>
-        <li>✔ Aprovecha el crecimiento del mercado</li>
-        <li>✔ Sin riesgo de trading activo</li>
+        <li>✔ Holding seguro</li>
+        <li>✔ Ideal para comenzar</li>
       </ul>
     </div>
 
-    <!-- STAKING -->
     <div class="plan-card">
-      <h3>Staking</h3>
-      <p>Genera recompensas pasivas</p>
+      <h3>Pro</h3>
+      <p>$100 - $1000</p>
       <ul>
-        <li>✔ Ingresos por mantener tokens</li>
-        <li>✔ Basado en redes blockchain</li>
-        <li>✔ Rendimientos variables</li>
+        <li>✔ Mayor rendimiento</li>
+        <li>✔ Estrategias mixtas</li>
       </ul>
     </div>
 
-    <!-- MIX -->
     <div class="plan-card">
-      <h3>Estrategia Mixta</h3>
-      <p>Balance entre crecimiento y recompensas</p>
+      <h3>VIP</h3>
+      <p>$1000+</p>
       <ul>
-        <li>✔ Holding + Staking</li>
-        <li>✔ Diversificación</li>
-        <li>✔ Gestión inteligente</li>
+        <li>✔ Máximo potencial</li>
+        <li>✔ Gestión avanzada</li>
       </ul>
     </div>
 
   </div>
 </section>
 
-<!-- SEGURIDAD -->
-<section id="seguridad" class="security reveal">
-  <h2>Seguridad y tecnología</h2>
-  <p>Infraestructura basada en blockchain con monitoreo constante.</p>
-</section>
-
 <!-- CTA FINAL -->
-<section class="cta-final">
-  <h2>Empieza hoy mismo</h2>
+<section class="cta-final reveal">
+  <h2>Empieza hoy con Invert-X</h2>
+  <p>Crea tu cuenta y accede a tu panel de inversión</p>
   <a href="register.html">Crear cuenta</a>
-</section>
-
-<section class="terms">
-  <h2>Términos y Condiciones</h2>
-  <p>
-    Al utilizar Invert-X, aceptas que las inversiones en activos digitales conllevan riesgos.
-    No garantizamos ganancias. El usuario es responsable de sus decisiones financieras.
-  </p>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <a href="terms.html">Términos y Condiciones</a>
-  <p>© 2026 Invert-X. Todos los derechos reservados.</p>
+  <p>© 2026 Invert-X - Todos los derechos reservados</p>
 </footer>
 
 <script src="app.js"></script>
